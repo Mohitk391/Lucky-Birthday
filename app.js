@@ -35,12 +35,13 @@ var sum = sumOfDate(year, month, day);
 if(sum==luckyNumber.value){
     console.log("lucky Date");
     console.log(sum + " " + luckyNumber.value);
-    output.innerText = "Yayy!! Your birthdate is lucky for you...!!";
+
+    output.innerText = "🎉Yayy!! Your birthdate is lucky for you...!!";
 }
 else {
     console.log("unlucky");
     console.log(sum + " " + luckyNumber.value);
-    output.innerText = "Alas!! Your birthdate doesnot align with your lucky number, but still it is a lucky number as on this day only you came into this world...!!";
+    output.innerText = "🙁Alas!! Your birthdate doesnot align with your lucky number, but still 😄 it is a lucky number as on this day only you came into this world 😎...!!";
 }
 }
 
